@@ -5,7 +5,7 @@
 // when asking for what they want in their password or use charset using letters "abcdefghijklmnopqrstuvwxyz""ABCDEFGHIJKLMNOPQRSTUVWXYZ
 // for loop through the giant array, and using var random = Math.floor(Math.random() * giantArray.length) you can grab random values
 // password += giantArray[random] or  for (let i = 0; i < length; i++) {
-    // also need to add disabled if pass word length is not enough or is does not match
+    // also need to add disabled if pass word length is not enough or is does not match.
 document.getElementById("generate").addEventListener("click", function() {
   let length = prompt("Enter password length between 8 and 128 characters:");
 
