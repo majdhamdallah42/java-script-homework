@@ -1,14 +1,3 @@
-// Assignment Code
-// Create some variable, that hold each character value e.g. (var this = "ABC...".split(""), var or charset += this = "123...") => ["A", "B"]
-// using prompt, how can we get a length, and store it for later
-// maybe build out a GIANT array based on what the user wants e.g. ["A", "B"... , "a", "b"]  using maybe .push() .concat() 
-// when asking for what they want in their password or use charset using letters "abcdefghijklmnopqrstuvwxyz""ABCDEFGHIJKLMNOPQRSTUVWXYZ
-// for loop through the giant array, and using var random = Math.floor(Math.random() * giantArray.length) you can grab random values
-// password += giantArray[random] or  for (let i = 0; i < length; i++) {
-    // also need to add disabled if pass word length is not enough or is does not match
-      let randomIndex = Math.floor(Math.random() * charset.length);
-      password += charset[randomIndex];
-// Write password to the #password input
 document.getElementById("generate").addEventListener("click", function() {
   let length = prompt("Enter password length between 8 and 128 characters:");
 
@@ -42,7 +31,7 @@ document.getElementById("generate").addEventListener("click", function() {
 
   document.getElementById("password").innerText = password;
 
-  
+  // Enable the "Copy to Clipboard" button only after generating the password
   document.getElementById("copy").removeAttribute("disabled");
   document.getElementById("copy").style.cursor = "pointer";
 });
@@ -51,7 +40,7 @@ document.getElementById("copy").addEventListener("click", function() {
   let passwordText = document.getElementById("password").innerText;
   
   if (passwordText === "") {
-      
+      // If there's no password, disable the "Copy to Clipboard" button
       document.getElementById("copy").setAttribute("disabled", "disabled");
       document.getElementById("copy").style.cursor = "not-allowed";
       alert("No password to copy");
