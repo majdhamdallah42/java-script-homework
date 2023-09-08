@@ -9,7 +9,7 @@
 document.getElementById("generate").addEventListener("click", function() {
   let length = prompt("Enter password length between 8 and 128 characters:");
 
-  if (length < 8 || length > 128) {
+  if (length < 8 || length > 128  || isNaN (length)) {
       alert("Invalid password length. Please try again.");
       return;
   }
