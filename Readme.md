@@ -2,8 +2,7 @@
 
 ## Description
 
-I have developed a password generator as a demonstration of my proficiency in JavaScript. This web application offers a user-friendly interface where, upon clicking the "Generate Password" button, a sequence of prompts is presented to the user. These prompts empower the user to specify the desired password length, ranging to select character types, including enlgish letters, numbers, and  character symbols.![Alt text](<Screen Shot 2023-09-07 at 5.52.04 PM.png>)
-https://majdhamdallah42.github.io/java-script-homework/
+I have developed a password generator as a demonstration of my proficiency in JavaScript. This web application offers a user-friendly interface where, upon clicking the "Generate Password" button, a sequence of prompts is presented to the user. These prompts empower the user to specify the desired password length, ranging to select character types, including enlgish letters, numbers, and  character symbols.!![Alt text](<Screen Shot 2023-09-07 at 8.50.10 PM.png>)
 
 ## Installation
 Java Script password generator 
