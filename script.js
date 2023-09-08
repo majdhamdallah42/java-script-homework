@@ -1,16 +1,10 @@
 // Assignment Code
-
 // Create some variable, that hold each character value e.g. (var this = "ABC...".split(""), var this = "123...") => ["A", "B"]
-
 // using prompt, how can we get a length, and store it for later
-
 // maybe build out a GIANT array based on what the user wants e.g. ["A", "B"... , "a", "b"]  using maybe .push() .concat() 
 // when asking for what they want in their password
-
 // for loop through the giant array, and using var random = Math.floor(Math.random() * giantArray.length) you can grab random values
-
 // password += giantArray[random]
-
 // Write password to the #password input
 document.getElementById("generate").addEventListener("click", function() {
   let length = prompt("Enter password length between 8 and 128 characters:");
